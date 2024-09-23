@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <style type="text-css">
+        body{background-color: rgb(0, 0, 0);}
+
+    </style>
+</head>
+<body>
+    <div id="corpo"> 
+    <h1>Listas</h1>
+     <div id="ordenada"
+    <h2> Listas Ordenadas </h2>
+     <p>
+        São listas das comidas.
+         Usa-se a tag OL para definir a lista e LI para o item
+     </p>
+     <ol>
+        <li>Arroz</li> 
+        <button onclick="aumentaArroz()">+</button>
+<button onclick="diminuiArroz()">-</button>
+        <li>Feijão</li>
+        <button onclick="aumentaFeijão()">+</button>
+<button onclick="diminuiFeijão()">-</button>
+        <li>Macarrão</li>
+        <button onclick="aumentaMacarrão()">+</button>
+<button onclick="diminuiMacarrão()">-</button>
+        <li>Cuscuz</li>
+        <button onclick="aumentaCuscuz()">+</button>
+<button onclick="diminuiCuscuz()">-</button>
+     </ol>
+    </div>
+    
+    </div>
+   </div>
+</body>
+<footer>
+    <script>
+        var x=0;
+        var y=5;
+        function atualiza(){
+            document.getElementById("som").innerHTML="A soma de "+X+" e "+Y+" é "+X+Y;
+            document.getElementById("sub").innerHTML="A subtração de "+X+" e "+Y+" é "+X+Y;
+        }
+        function aumenta(){x++;atualiza();}
+        function diminui(){X--;atualiza();}
+    </script>
+</footer>  
+</html>
